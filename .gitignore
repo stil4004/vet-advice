@@ -1,0 +1,39 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.log
+*.swp
+*.swo
+.DS_Store
+.dart-tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock  # Для приложений можно не добавлять, для пакетов - добавить
+
+# Android
+*.iml
+.idea
+.gradle/
+local.properties
+**/android/app/build/
+**/android/.gradle/
+
+# iOS
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Web
+**/web/sqlite3.wasm
+**/web/sqflite_sw.js
+
+# IDE
+.vscode/
+.idea/
+*.iml
